@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+.welcome {
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerArea {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 80px;
+    margin-top: -80px;
+}
+
+.welcome > h1 {
+    font-family: 'Changa One';
+    font-weight: normal;
+    font-size: 144px;
+    left: 46px;
+    top: 155px;
+    /* position: absolute; */
+    color: white;
+}
+
+.login-register-container {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    left: 150px;
+    top: 360px;
+}
+
+.login-register-container > input {
+    height: 30px;
+    width: 80%;
+    border: 1px solid gray;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.login-register-container > button {
+    padding: 5px 20px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.sign-in-register-button {
+    background: white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Changa One';
+    font-weight: normal;
+    color: black;
+}
+
+.create-account-button {
+    background: white;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.todo-svg {
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+    transform: scale(1.3);
+}

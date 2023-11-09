@@ -1,0 +1,75 @@
+.homepage {
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.landingPage {
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.titleDiv h1 {
+    font-size: 80px;
+}
+.add-edit-input {
+    position: absolute;
+    top: 20px;
+    outline: none;
+    border: none;
+    height: 30px;
+    font-size: 25px;
+    padding: 5px 20px;
+}
+
+.add-confirm-icon {
+    position: absolute;
+    transform: scale(2);
+    top: 27px;
+    right: 750px;
+    cursor: pointer;
+    color: #6c63ff;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.todo > h1 {
+    width: 500px;
+    background-color: rgb(211, 211, 211);
+    padding: 5px 10px;
+    color: black;
+}
+
+.edit-button,
+.delete-button {
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+}
+
+.logout-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 20px;
+    background: #6c63ff;
+    color: white;
+    border-radius: 50%;
+}
